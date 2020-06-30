@@ -1,4 +1,4 @@
-package com.example.practical_2_part_a;
+package com.example.practical_2_part_b;
 
 import android.content.Context;
 
