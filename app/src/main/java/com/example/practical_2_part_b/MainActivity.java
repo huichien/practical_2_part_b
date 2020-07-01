@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void resetZero(View view) {
+    public void callMethod(View view) {
         mCount = 0;
         mShowCount.setText(String.valueOf(mCount));
 
@@ -61,4 +61,5 @@ public class MainActivity extends AppCompatActivity {
         view.setBackgroundColor(Color.GRAY);
         mCountButton.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
     }
+
 }
